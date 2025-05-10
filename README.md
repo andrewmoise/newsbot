@@ -27,12 +27,12 @@ Code:
 
 Configuration:
 
-* `rss_feeds.txt`: List of feeds to fetch
+* `rss-feeds.txt`: List of feeds to fetch
 * `openai-key`: OpenAI API key to use
 
 Internal data:
 
 * `ratings-seed.json`: Examples of how to categorize and rate stories, for benefit of the LLM
 * `all-queries.json`: API query log for debugging
-* `rss_feed_log.log`: Script execution log for debugging
-* `rss_feed_data.json`: Current set of articles fetched from RSS
+* `rss-feed-log.log`: Script execution log for debugging
+* `rss-feed-data.json`: Current set of articles fetched from RSS
